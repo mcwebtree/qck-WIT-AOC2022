@@ -4,7 +4,7 @@ Class a2022.somejunk [ Not ProcedureBlock ]
 ClassMethod Menue()
 {
   Write #,"Welcome to OEX Contest Statistics",!
-      m Read !,"Select Contests, Prizes, Winners, Assign, Statistics, eXit (C,P,W,A,S,X) :",read#1,!
+m Read !,"Select Contests, Prizes, Winners, Assign, Statistics, eXit (C,P,W,A,S,X) :",read#1,!
   Do $case($ZCVT(m,"U")
               ,"C":..Con()
               ,"P":..Prz()
