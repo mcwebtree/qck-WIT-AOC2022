@@ -1,4 +1,4 @@
-Class dc.aoc2022.Base
+Class dc.2022.Base
 {
 
 Parameter Folder = "/irisdev/app/data/";
