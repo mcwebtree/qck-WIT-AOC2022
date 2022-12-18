@@ -3,10 +3,10 @@
   <Document name="aoc-template.ZPM">
     <Module>
       <Name>aoc-template</Name>
-      <Version>1.0.1</Version>
+      <Version>1.0.2</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.a2022.PKG"/>
+      <Resource Name="a2022.PKG"/>
     </Module>
   </Document>
 </Export>
