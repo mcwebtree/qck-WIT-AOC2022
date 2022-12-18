@@ -6,8 +6,7 @@
       <Version>1.0.0</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.aoc2022.PKG"/>
-      <Resource Name="some.PKG"/>
+      <Resource Name="dc.2022.PKG"/>
     </Module>
   </Document>
 </Export>
