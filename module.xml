@@ -7,7 +7,7 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="dc.aoc2022.PKG"/>
-      <Resource Name="some.junk.CLS"/>
+      <Resource Name="some.PKG"/>
     </Module>
   </Document>
 </Export>
