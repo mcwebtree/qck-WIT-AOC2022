@@ -5,16 +5,16 @@ ClassMethod Menue()
 {
   Write #,"Welcome to OEX Contest Statistics",!
 m Read !,"Select Contests, Prizes, Winners, Assign, Statistics, eXit (C,P,W,A,S,X) :",read#1,!
-  Do $case($ZCVT(m,"U")
+  Do $case($ZCVT(read,"U")
               ,"C":..Con()
               ,"P":..Prz()
               ,"W":..Win()
               ,:q)
-        If "X"'=$ZCVT(m,"U") Goto quit     
-          quit Quit
+        If "X"'=$ZCVT(m,"U") set quit=1 Goto quit     
+          quit quit
 }
 
-ClassMethod Con()
+ClassMethod Con(x)
 {
 c Read !,"Contest List, Edit, New, Delete, eXit (L,E,N,D,X) :",c#1,!
           if x Do $case($ZCVT(c,"U")
