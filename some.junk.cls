@@ -1,4 +1,4 @@
-Class User.Main [ Not ProcedureBlock ]
+Class some.junk [ Not ProcedureBlock ]
 {
 
 ClassMethod Menue()
