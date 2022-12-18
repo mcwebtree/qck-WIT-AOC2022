@@ -1,4 +1,4 @@
-Class dc.a2022.somejunk [ Not ProcedureBlock ]
+Class a2022.somejunk [ Not ProcedureBlock ]
 {
 
 ClassMethod Menue()
