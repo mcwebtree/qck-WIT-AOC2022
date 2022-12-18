@@ -1,4 +1,4 @@
-Class dc.a2022.Base
+Class a2022.Base
 {
 
 Parameter Folder = "/irisdev/app/data/";
