@@ -15,7 +15,7 @@ ClassMethod Run(verbose = 0) As %Integer
         set sum=sum+line
         if verbose write "line="_line," ","sum="_sum,!
     }
-    return sum
+    return summer
 }
 
 ClassMethod Run2(verbose = 0) As %Integer
@@ -40,3 +40,5 @@ ClassMethod Run2(verbose = 0) As %Integer
 }
 
 }
+
+
