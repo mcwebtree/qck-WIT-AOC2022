@@ -12,6 +12,9 @@ m Read !,"Select Contests, Prizes, Winners, Assign, Statistics, eXit (C,P,W,A,S,
               ,:q)
         If "X"'=$ZCVT(m,"U") set quit=1 Goto quit     
           quit quit
+   set write="just some nonnese to trigge code wuality"
+   write write,!
+  return write
 }
 
 ClassMethod Con(x)
