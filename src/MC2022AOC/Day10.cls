@@ -1,14 +1,14 @@
 Class MC2022AOC.Day10
 {
 
-ClassMethod runGame2(intLive As %Integer = 1, intVerb As %Integer = 0) As %Integer
+ClassMethod runGame2(intLive As %Integer = 1, intVerb As %Integer = 0) ; As %Integer
 {
 	I intLive=1
 	{ d ..initLive() }
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount)=0
+	Set intCount=0
 	S intClick=1	
 	S intX=1
 	S aClicks=""
