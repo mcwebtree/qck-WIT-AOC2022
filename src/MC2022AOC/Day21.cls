@@ -8,7 +8,7 @@ ClassMethod runGame2(intLive As %Integer = 1, intVerb As %Integer = 0) As %Integ
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount)=0
+	S (intCount,%)=0
     k aUnsolved,aSolved
 	S aUnsolved=(^AOCD21-2),aSolved=0
     s (iTest1,iTest2)=""
@@ -115,7 +115,7 @@ ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Intege
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount)=0
+	S (intCount,%)=0
     k aUnsolved,aSolved
 	S aUnsolved=^AOCD21,aSolved=0
 
