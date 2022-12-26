@@ -8,7 +8,7 @@ ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Intege
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount)=0
+	S (intCount,v1)=0
 		
 	// init the control array
 	for intRow=1:3:^AOCD13 {
