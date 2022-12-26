@@ -1,4 +1,4 @@
-Class MC2022AOC.Day9 [ Abstract ]
+Class MC2022AOC.Day9
 {
 
 ClassMethod runGame2(intLive As %Integer = 1, intVerb As %Integer = 0) As %Integer
