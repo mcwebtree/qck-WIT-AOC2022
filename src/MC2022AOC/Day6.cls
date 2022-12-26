@@ -8,7 +8,7 @@ ClassMethod runGame2(intLive As %Integer = 1, intLen As %Integer = 4, intVerb As
 	ELSE 
 	{ d ..initTest2() }
 	
-	S (intSum)=0
+	S (intSum,%)=0
 		
 	for intRow=1:1:^AOCD6 {
 		s intRet=..findPatternEnd(^AOCD6(intRow),intLen)
@@ -25,7 +25,7 @@ ClassMethod runGame(intLive As %Integer = 1, intLen As %Integer = 4, intVerb As 
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intSum)=0
+	S (intSum,%)=0
 		
 	for intRow=1:1:^AOCD6 {
 		s intRet=..findPatternEnd(^AOCD6(intRow),intLen)
