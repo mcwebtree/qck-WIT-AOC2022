@@ -8,7 +8,7 @@ ClassMethod runGame(intLive As %Integer = 1, intRounds As %Integer = 20, intReli
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount)=0
+	S intCount=0
 
     s ModDivisor=9699690
 		
