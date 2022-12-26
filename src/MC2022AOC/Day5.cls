@@ -8,7 +8,7 @@ ClassMethod runGame2(intLive As %Integer = 1, intVerb As %Integer = 0) As %Integ
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intSum)=0
+	S (intSum,%)=0
 	
 	F i=1:1:^AOCD5D
 	{
@@ -52,7 +52,7 @@ ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Intege
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intSum)=0
+	S (intSum,%)=0
 	
 	F i=1:1:^AOCD5D
 	{
