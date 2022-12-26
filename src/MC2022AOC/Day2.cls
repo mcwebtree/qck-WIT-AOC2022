@@ -1,4 +1,4 @@
-Class MC2022AOC.Day2 [ Abstract ]
+Class MC2022AOC.Day2
 {
 
 Parameter vWin = 6;
