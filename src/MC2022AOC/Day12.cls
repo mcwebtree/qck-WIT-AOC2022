@@ -1,4 +1,4 @@
-Class MC2022AOC.Day12 [ Abstract ]
+Class MC2022AOC.Day12
 {
 
 // Apparently Dijkstra's algorithm does this well, and there is a phyton implementation, but I didn't have time to learn it...
