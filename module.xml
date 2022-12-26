@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="aoc-template.ZPM">
+  <Document name="aoc-mc2022.ZPM">
     <Module>
-      <Name>aoc-template</Name>
+      <Name>aoc-mc2022</Name>
       <Version>1.0.2</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="a2022.PKG"/>
+      <Resource Name="MC2022AOC.PKG"/>
     </Module>
   </Document>
 </Export>
