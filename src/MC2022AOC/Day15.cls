@@ -1,7 +1,7 @@
 Class MC2022AOC.Day15
 {
 
-ClassMethod runGame2a(intLive As %Integer = 1, intVerb As %Integer = 0) As %Integer
+ClassMethod runGame2a(intLive As %Integer = 1, intVerb As %Integer = 0) ;As %Integer
 {
 
 	I intLive=1
@@ -48,7 +48,7 @@ ClassMethod runGame2a(intLive As %Integer = 1, intVerb As %Integer = 0) As %Inte
     zw sensGrid w !
 }
 
-ClassMethod runGame2(intLive As %Integer = 1, intVerb As %Integer = 0) As %Integer
+ClassMethod runGame2(intLive As %Integer = 1, intVerb As %Integer = 0) ; As %Integer
 {
 
 	I intLive=1
@@ -82,7 +82,7 @@ ClassMethod runGame2(intLive As %Integer = 1, intVerb As %Integer = 0) As %Integ
             s data=^AOCD15(intRow)
             w:intVerb>1 "Start sensor "_intRow,!
             // sensor location
-            s sensX=$LI(data,1)
+            s sensX=$LI(data,1) if sensX
             s sensY=$LI(data,2)
 
             // get limits
@@ -145,7 +145,7 @@ SkipLoop
     }
 }
 
-ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Integer
+ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) ;As %Integer
 {
 	S (intCount)=0
 	S retRow=""
