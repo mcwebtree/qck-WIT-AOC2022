@@ -1,5 +1,4 @@
-Class MC2022AOC.Day3 [ Abstract ]
-{
+Class MC2022AOC.Day3
 
 /// 
 /// Lowercase item types a through z have priorities 1 through 26.
