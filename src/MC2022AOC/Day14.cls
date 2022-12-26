@@ -8,7 +8,7 @@ ClassMethod runGame2(intLive As %Integer = 1, intVerb As %Integer = 0) As %Integ
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount)=0
+	S (intCount,v)=0
 	s aGrid = ""
 
     S (minX,maxX)=500
@@ -119,7 +119,7 @@ ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Intege
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount)=0
+	S (intCount,v)=0
 	s aGrid = ""
 
     S (minX,maxX)=500
@@ -169,7 +169,7 @@ ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Intege
 	Q (numGrains-1)
 }
 
-ClassMethod buildRock(ByRef aGrid, nStart, nEnd, ByRef minX As %Integer, ByRef maxX As %Integer, ByRef minY As %Integer, ByRef maxY As %Integer, intVerb As %Integer = 0) As %Integer
+ClassMethod buildRock(ByRef aGrid, nStart, nEnd, ByRef minX As %Integer, ByRef maxX As %Integer, ByRef minY As %Integer, ByRef maxY As %Integer, intVerb As %Integer = 0) ;As %Integer
 {
     S X1=$P(nStart,",",1)
     S Y1=$P(nStart,",",2)
