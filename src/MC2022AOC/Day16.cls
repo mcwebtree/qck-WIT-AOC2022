@@ -8,7 +8,7 @@ ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Intege
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount)=0
+	S (intCount,v)=0
 	S aValve=0
     s aFlow=""
     s iTimeAll=30
