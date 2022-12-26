@@ -1,4 +1,4 @@
-Class MC2022AOC.Day7 [ Abstract ]
+Class MC2022AOC.Day7
 {
 
 Parameter intTtlSpace As %Integer = 70000000;
