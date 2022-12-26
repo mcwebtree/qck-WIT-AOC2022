@@ -89,7 +89,7 @@ ClassMethod getCoords(ByRef lstQ As %List) As %Integer
     s Step1=1000
     s Step2=2000
     s Step3=3000
-    
+         if Step1,Step2,Step3
     s l(1)=1000#iLen
     s l(2)=2000#iLen
     s l(3)=3000#iLen
@@ -180,7 +180,7 @@ ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Intege
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount)=0
+	S (intCount,v)=0
 	S lstQ=""
 
 	// init the control array
