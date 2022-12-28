@@ -180,7 +180,7 @@ ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Intege
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount,v)=0
+	S (intCount)=0
 	S lstQ=""
 
 	// init the control array

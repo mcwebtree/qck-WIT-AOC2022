@@ -8,7 +8,7 @@ ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Intege
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount,v1)=0
+	S (intCount)=0
 		
 	// init the control array
 	for intRow=1:3:^AOCD13 {
@@ -51,6 +51,7 @@ ClassMethod checkList(aStr) As %Integer
 		ELSE 
 		{
 			s v1=$LI(aStr,1)
+			w v1,!
 			s retVal=1
 		}
     }

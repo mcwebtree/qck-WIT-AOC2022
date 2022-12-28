@@ -8,7 +8,7 @@ ClassMethod runGame2(intLive As %Integer = 1, intLen As %Integer = 4, intVerb As
 	ELSE 
 	{ d ..initTest2() }
 	
-	S (intSum,%)=0
+	
 		
 	for intRow=1:1:^AOCD6 {
 		s intRet=..findPatternEnd(^AOCD6(intRow),intLen)
@@ -25,7 +25,6 @@ ClassMethod runGame(intLive As %Integer = 1, intLen As %Integer = 4, intVerb As 
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intSum,%)=0
 		
 	for intRow=1:1:^AOCD6 {
 		s intRet=..findPatternEnd(^AOCD6(intRow),intLen)
@@ -63,7 +62,7 @@ L1x
 	{
 		/// Test the first string of characters 
 		S fMatch=0
-		s strTest=$E(strString,k-intLen+1,k)
+		//s strTest=$E(strString,k-intLen+1,k)
 		F j=k-intLen+1:1:k
 		{
 			S aTest($E(strString,j,j))=$G(aTest($E(strString,j,j)),0)+1

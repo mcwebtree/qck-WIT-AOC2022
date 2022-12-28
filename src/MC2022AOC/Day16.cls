@@ -8,7 +8,7 @@ ClassMethod runGame(intLive As %Integer = 1, intVerb As %Integer = 0) As %Intege
 	ELSE 
 	{ d ..initTest() }
 	
-	S (intCount,v)=0
+	//S (intCount)=0
 	S aValve=0
     s aFlow=""
     s iTimeAll=30
@@ -136,7 +136,7 @@ L1 s aN=$o(aUnvisited(aN)) G:aN="" L1x
     g L1
 L1x
     s retVal=""
-    S iDist=$O(aSort(""),1,retVal)
+    //S iDist=$O(aSort(""),1,retVal)
     q retVal
 }
 

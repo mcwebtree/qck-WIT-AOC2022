@@ -31,7 +31,6 @@ ClassMethod runGame2(intLive As %Integer = 1, intLen As %Integer = 4, intVerb As
 	s intNeeded=..#intReqSpace-intFree
 	
 	S curMinSize=..#intTtlSpace
-	S curPath=""
 
 	s strP=""
 L1  S strP=$O(aTree(strP)) G:strP="" L1x
@@ -40,7 +39,6 @@ L1  S strP=$O(aTree(strP)) G:strP="" L1x
 		I aTree(strP,"SIZE")<curMinSize
 		{
 			s curMinSize=aTree(strP,"SIZE")
-			s curPath=strP
 		}
 		
 	}
