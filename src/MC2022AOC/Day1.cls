@@ -1,6 +1,6 @@
 Class MC2022AOC.Day1
 {
-
+/// words
 ClassMethod runGame2(intLive As %Integer = 1, intVerb As %Integer = 0) As %Integer
 {
 	I intLive=1
